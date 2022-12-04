@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.s9dp.newsstory";
+option java_multiple_files = true;
+
+message UserPreferences {
+  // filter for showing / hiding completed tasks
+  bool isLogged = 1;
+  string fullName = 2;
+  string email = 3;
+}
